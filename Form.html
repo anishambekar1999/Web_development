@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registeration Form</title>
+</head>
+<body>
+	<form>
+		<table border="3px" cellspacing="0px" cellpadding="5px">
+			<thead>
+				<tr>
+					<th colspan="4">Registeration Form</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<label for="fn">First Name :</label>
+					</td>
+					<td>
+						<input id="fn" type="text" name="first_name" placeholder="First_Name" required>
+					</td>
+					<td>
+						<label for="ln">Last Name :</label>
+					</td>
+					<td>
+						<input id="ln" type="text" name="last_name" placeholder="Last_Name" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Gender :</label>
+					</td>
+					<td colspan="3">
+						<label>Male
+							<input type="radio" name="g" required>
+						</label>
+						<label>Female
+							<input type="radio" name="g" required>
+						</label>
+						<label>Other
+							<input type="radio" name="g" required>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="e">Email :</label>
+					</td>
+					<td>
+						<input id="e" type="email" name="Email-id" placeholder="Email" required>
+					</td>
+					<td>
+						<label for="p">Password :</label>
+					</td>
+					<td>
+						<input id="p" type="password" name="Password_of_user" placeholder="Password" pattern=".{5,10}" required title="Password must be between 5 to 10 characters">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="d">Date-of-Birth :</label>
+					</td>
+					<td colspan="3">
+						<select name="month">
+							<option>Month</option>
+							<option>Jan</option>
+							<option>Feb</option>
+							<option>Mar</option>
+						</select>
+						<select name="day">
+							<option>Date</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</select>
+						<select name="year">
+							<option>Year</option>
+							<option>1999</option>
+							<option>1998</option>
+							<option>1997</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<label>I agree to the terms and conditions
+							<input type="checkbox" name="agree" required>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4"><input type="submit" name="Submit"></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
