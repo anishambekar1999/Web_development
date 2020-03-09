@@ -1,2 +1,2 @@
 This is login form using HTML and CSS.
-![Website](C:\Users\User\Pictures\Screenshots\Screenshot (155))
+![Website](file:///D:/Web_developer_bootcamp/Sample.html#)
